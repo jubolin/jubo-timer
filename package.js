@@ -16,7 +16,7 @@ Package.onUse(function (api) {
   api.imply(packages);
 
   api.addFiles([
-    'server/jubo-.js',
+    'server/jubo-timer.js',
   ], ['server']);
 });
 
